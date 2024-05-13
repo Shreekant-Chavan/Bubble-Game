@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(202, 248, 202);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pannel {
+    height: 80%;
+    width: 90%;
+    background-color:rgb(81, 111, 81);
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#pannel-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20%;
+    color: #fff;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(34, 134, 34);
+}
+
+
+.elem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.elem h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.elem .box {
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: rgb(22, 130, 22);
+    background-color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+#pannel-bottom {
+    padding: 10px;
+    width: 100%;
+    height: calc(100% - 60px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.bubble {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(22, 130, 22);
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.bubble:hover {
+    background-color: rgb(16, 66, 16);
+    cursor: pointer;;
+}
