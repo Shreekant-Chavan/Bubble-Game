@@ -67,8 +67,22 @@ html, body {
     width: 100%;
     height: calc(100% - 60px);
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+#pannel-bottom h1{
+    font-size: 45px;
+    margin: 0% 35%;
+    margin-top: 70px;
+}
+
+
+#pannel-bottom h3{
+    font-size: 35px;
+    margin-bottom: 120px;
 }
 
 
